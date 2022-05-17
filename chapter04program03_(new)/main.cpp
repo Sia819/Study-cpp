@@ -26,13 +26,12 @@ int main()
 
     // 문자의 개수를 찾는다.
     int count = 0;
-    for (int i = 0; i < str.max_size(); i++)
+    for (int i = 0; i < str.size(); i++)
     {
         if (str.at(i) == 'a')
             count++;
     }
     
     // 문자의 개수를 출력한다.
-    cout << "문자 a는 3ㄱ" << count << endl;
-
+    cout << "문자 a는 " << count << endl;
 }
